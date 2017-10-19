@@ -2,7 +2,7 @@
 Interface to control BayTech RPC power unit
 
 Background:
-I am managing some BayTech RPC-3 and RPC-5 power unit.  These units
+I am managing some BayTech RPC-3 and RPC-1 power unit.  These units
 only have a telnet interface or a serial console.
 
 In order to automate some of the tasks, I am trying to build up an
