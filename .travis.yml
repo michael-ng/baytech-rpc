@@ -1,0 +1,6 @@
+language: python
+python:
+          - "2.7"
+# syntax check
+# script:
+   - python -m py_compile rpc.py
