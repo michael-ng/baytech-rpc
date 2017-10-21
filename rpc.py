@@ -47,7 +47,10 @@ class rpc3:
             if "for a list of commands" in line:
                 print ("Done")
                 isPrompt = True
-            elif ").."
+            elif "quit" in line:
+                print ("quit")
+            else:
+                print ("Skipping")
     
 
 # main
