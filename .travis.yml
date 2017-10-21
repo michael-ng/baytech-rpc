@@ -1,10 +1,13 @@
 language: python
 python:
-          - "2.7"
+ - "2.6"
+ - "2.7"
+ - "3.2"
+ - "3.3"
+ - "3.4"
+# command to install dependencies
 install:
-        pip  install telnetlib
-        pip install getpass
-        pip install sys
-# syntax check
-# script:
-  -  python -m py_compile rpc.py
+ - pip install telnetlib
+ - pip install getpass 
+# command to run tests
+script: python -m py_compile rpc.py
